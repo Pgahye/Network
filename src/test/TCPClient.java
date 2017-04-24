@@ -59,7 +59,7 @@ public class TCPClient {
 			//자원정리
 		//	try{
 		//	if(socket != null && socket.isClosed()==false ){
-				
+				//
 			//	socket.close();
 			//}} catch (IOException e) {
 		//		// TODO Auto-generated catch block

@@ -10,7 +10,7 @@ public class LocalHost {
 
 	//]  Local Host 이름 및 IP 주소 구하기
 
-		
+		//
 		
 		try {
 			InetAddress inetAddress=InetAddress.getLocalHost();

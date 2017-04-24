@@ -8,7 +8,7 @@ import java.util.List;
 public class MutiThreadEx {
 
 	public static void main(String[] args) {
-		
+		//
 		
 	List list=new ArrayList();
 		// TODO Auto-generated method stub

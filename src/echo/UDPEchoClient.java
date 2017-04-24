@@ -9,7 +9,7 @@ import java.net.SocketException;
 import java.util.Scanner;
 
 public class UDPEchoClient {
-	
+	//
 	private static final String SERVER_IP="192.168.1.34";
 	private static final int SERVER_PORT=6060;
 

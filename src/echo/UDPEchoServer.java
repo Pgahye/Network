@@ -42,7 +42,7 @@ public class UDPEchoServer {
 		//데이터, 데이터 길이 , 받는  사람 ip주소+포트 등이 들어있음
 		
 		datagramSocket.send(sendPacket);
-		
+		//
 		}
 		
 		} catch (SocketException e) {

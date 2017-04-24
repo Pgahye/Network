@@ -10,7 +10,7 @@ public class DigitThread extends Thread {
 		
 		
 		this.list=list;
-		
+		//
 	}
 	@Override
 	public void run() {

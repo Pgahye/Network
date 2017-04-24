@@ -48,8 +48,8 @@ public class TimeClient {
 				
 				System.out.println("[UDP Echo Client] reveived : "+ message);
 			
-				
-				
+				////
+				//
 				
 			}
 		

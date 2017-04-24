@@ -47,7 +47,7 @@ public class EchoServerReceiveThread extends Thread {
 		 
 		 BufferedReader br= new BufferedReader(new InputStreamReader(socket.getInputStream(),"utf-8")); //byte기반의 소켓에서 가지고와서 읽어들임 
 		 PrintWriter pw=new PrintWriter(new OutputStreamWriter(socket.getOutputStream(),"utf-8"),true); //오토플러쉬?를 위한 true
-		 
+		 //
 		 while(true){
 			 
 		

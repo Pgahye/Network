@@ -8,5 +8,5 @@ public class UpperCaseAlphabetThread extends UpperCaseAlphabet implements Runnab
 
 			print();
 	}
-
+//
 }

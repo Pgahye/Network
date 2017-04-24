@@ -10,7 +10,7 @@ public class NSLookup {
 		// TODO Auto-generated method stub
 
 		try {
-			
+			//
 			InetAddress[] inetAddress=null;
 
 			while (true) {

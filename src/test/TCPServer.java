@@ -109,7 +109,7 @@ public class TCPServer {
 			//자원정리
 			try{
 			if(serverSocket != null && serverSocket.isClosed()==false ){
-				
+				//
 				serverSocket.close();
 			}} catch (IOException e) {
 				// TODO Auto-generated catch block

@@ -9,7 +9,7 @@ public class AlphabetThread extends Thread {
 	
 	public AlphabetThread(List list){
 		
-		
+		//
 		this.list=list;
 		
 	}
