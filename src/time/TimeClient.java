@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class TimeClient {
 
 	private static final String SERVER_IP="192.168.1.34";
-	private static final int SERVER_PORT=8080;
+	private static final int SERVER_PORT=7070;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -28,7 +28,7 @@ public class TimeClient {
 			
 				
 				
-				System.out.print(">>");
+			
 			
 				
 				//2.전송패킷 생성
@@ -39,7 +39,9 @@ public class TimeClient {
 				socket.send(sendPacket);
 				
 				//4.수신
-				DatagramPacket receivePacket=new DatagramPacket(new byte[1024],1024);
+				DatagramPacket receivePacket=new DatagramPacket(new byte[1024],1024,new InetSocketAddress( SERVER_IP, SERVER_PORT ) );  
+				socket.receive( receivePacket  ); 
+
 				socket.receive(receivePacket);//blocking
 				
 				//5. 화면 출력

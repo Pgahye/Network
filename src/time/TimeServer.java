@@ -1,6 +1,7 @@
 package time;
 
 import java.io.IOException;
+import java.net.BindException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketException;
@@ -10,7 +11,7 @@ import java.util.Date;
 public class TimeServer {
 //
 	
-	private static final int PORT=8080;
+	private static final int PORT=7070;
 	
 	
 	public static void main(String[] args) {
@@ -54,7 +55,8 @@ public class TimeServer {
 		catch(IOException e) { //데이터 통신 소켓 
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}finally{
+		}
+		finally{
 			
 			if(datagramSocket !=null && datagramSocket.isClosed()==false)
 			datagramSocket.close();
